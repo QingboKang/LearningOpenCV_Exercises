@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<my_struct_0>
+  <integer>
+    248</integer>
+  <CvPoint>
+    831 646</CvPoint>
+  <CvRect>
+    738 93 239 511</CvRect></my_struct_0>
+<my_struct_1>
+  <integer>
+    96</integer>
+  <CvPoint>
+    639 385</CvPoint>
+  <CvRect>
+    821 913 573 261</CvRect></my_struct_1>
+<my_struct_2>
+  <integer>
+    130</integer>
+  <CvPoint>
+    112 513</CvPoint>
+  <CvRect>
+    807 144 243 301</CvRect></my_struct_2>
+<my_struct_3>
+  <integer>
+    134</integer>
+  <CvPoint>
+    633 59</CvPoint>
+  <CvRect>
+    241 665 51 482</CvRect></my_struct_3>
+<my_struct_4>
+  <integer>
+    128</integer>
+  <CvPoint>
+    700 607</CvPoint>
+  <CvRect>
+    762 579 43 346</CvRect></my_struct_4>
+<my_struct_5>
+  <integer>
+    122</integer>
+  <CvPoint>
+    768 859</CvPoint>
+  <CvRect>
+    579 493 531 209</CvRect></my_struct_5>
+<my_struct_6>
+  <integer>
+    116</integer>
+  <CvPoint>
+    836 111</CvPoint>
+  <CvRect>
+    101 110 419 568</CvRect></my_struct_6>
+<my_struct_7>
+  <integer>
+    110</integer>
+  <CvPoint>
+    608 364</CvPoint>
+  <CvRect>
+    918 24 412 432</CvRect></my_struct_7>
+<my_struct_8>
+  <integer>
+    104</integer>
+  <CvPoint>
+    675 912</CvPoint>
+  <CvRect>
+    735 938 300 295</CvRect></my_struct_8>
+<my_struct_9>
+  <integer>
+    98</integer>
+  <CvPoint>
+    743 164</CvPoint>
+  <CvRect>
+    256 852 188 158</CvRect></my_struct_9>
+</opencv_storage>

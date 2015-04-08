@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\opencv247\opencv\mybuild_win32\install\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+e:\opencv_code\opencv_code\练习题\第五章\problem_3\problem_3\main.cpp(53): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  Problem_3.vcxproj -> E:\OpenCV_Code\OpenCV_Code\练习题\第五章\Problem_3\Debug\Problem_3.exe

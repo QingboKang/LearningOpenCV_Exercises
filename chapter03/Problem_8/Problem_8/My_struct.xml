@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<my_struct>
+  <integer>
+    10</integer>
+  <CvPoint>
+    50 145</CvPoint>
+  <CvRect>
+    2 2 400 400</CvRect></my_struct>
+</opencv_storage>

@@ -1,0 +1,25 @@
+a. 
+cxtypes.h在OpenCV2.2.1中已经不存在了，相应的文件为“OpenCV2.2安装文件夹路径/opencv/build/include/opencv2/core/types_c.h”
+--------------
+绝对值宏定义
+/* absolute value without jumps */
+#ifndef __cplusplus
+#define  CV_IABS(a)     (((a) ^ ((a) < 0 ? -1 : 0)) - ((a) < 0 ? -1 : 0))
+#else
+#define  CV_IABS(a)     abs(a)
+#endif
+---------------
+函数 cvRound, cvFloor, cvCeil 用一种舍入方法将输入浮点数转换成整数。 cvRound 返回和参数最接近的整数值。 cvFloor 返回不大于参数的最大整数值。cvCeil 返回不小于参数的最小整数值。在某些体系结构中该函数 工作起来比标准 C 操作起来还要快。
+---------------
+1. 一般计算机的随机数都是伪随机数，以一个真随机数（种子）作为初始条件，然后用一定的算法迭代产生随机数序列。
+2. 随机数的“种子”就是产生随机数的第一次使用值，机制是通过一个比较复杂函数，将这个种子的值映射到随机数空间的某一个点上，并且产生的随机数均匀地（或者符合正态分布等）散步在空间中，以后产生的随机数都与前一个随机数有关。
+3. RNG : random number generation   随机数生成
+相关函数
+1. CvRNG cvRNG(int64 seed);
+   使用64位长整形种子，初始化随机数生成器状态。
+   cvGetTickCount();
+   返回64位长整形的时间数据，在opencv中是为CvRNG设置的专用种子。
+2. unsigned cvRandInt(CvRNG* rng);
+   返回均匀分布的随机32位无符号整型值，并更新RNG的状态 ； 使用模操作可以获得确定边界的整形数值。
+3. double cvRandReal(CvRNG* rng);
+   返回均匀分布的随即浮点数，范围在0-1（不含1），并更新RNG的状态。
